@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+@import url(https://fonts.googleapis.com/css?family=Yesteryear);
+body{
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    height: 66px;
+}
+.nav{
+    background-color: black;
+    padding: 10px;
+}
+.drupal-img{
+    width: 40px;
+    float: left;
+}
+.nav span{
+    float: left;
+    margin-left: 10px;
+}
+.nav p{
+    display: inline;
+}
+.nav .n3{
+    float: right;
+}
+.nav .n2{
+    margin: 0 auto;
+}
+.nav .n3 #m1{
+    color:#e67c47;
+}
+.bg{
+    background: url(/images/header-bg.png) no-repeat;
+    height: 787px;
+    position: relative;
+    
+}
+.btn-nav{
+    text-align: center;
+    height: 90px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background: rgba(0, 250, 0); /* Fallback */
+    background-color: rgba(0, 250, 0, 0.1);
+    color: rgba(0, 250, 0, 0.1);
+}
+.btn-nav a p{
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+.bg-txt{
+    top: 270px;
+    width: 600px;
+    margin: 0 auto;
+    height: 140px;
+    position: relative;
+}
+.bg-txt #manila-txt{
+    font-family: 'Yesteryear', cursive;
+    color: white;
+    font-size: 250px;
+    margin-top: 50px;
+    position: absolute;
+    text-shadow: -1px -1px gray;
+    -webkit-transform: rotate(-18deg);
+    /* Firefox */
+    -moz-transform: rotate(-18deg);
+    /* IE */
+    -ms-transform: rotate(-18deg);
+    /* Opera */
+    -o-transform: rotate(-18deg);
+    }
+.bg-txt #lbl{
+    font-size: 60px;
+    color: #bbdce5;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.bg-txt #drupal-txt{
+    color: #bbdce5;
+    position: absolute;
+    left: 20px;
+    top: -60px;
+    font-size: 50px;
+}
+.m2{
+    position: absolute;
+    text-align: center;
+    bottom: 30px;
+    margin-left: 350px;
+}
+.m2 button{
+    padding: 20px 90 20 90px
+   
+}
+section{
+    margin-top: 0;
+    height: 500px;
+    background-color: #002b48;
+}
