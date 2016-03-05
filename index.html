@@ -2,22 +2,25 @@
 <head>
 <title>Drupal Camp</title>
     
-    <link rel="stylesheet" href="css/bootstrap.min.css" >
-    <link rel="stylesheet" href="css/bootstrap.css" >
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/bootstrap-responsive.css" >
     <link rel="stylesheet" href="css/style.css" >
 </head>
 <body>
 <div class="Home">
         <header>
-            <div class="nav navbar-fixed-top">
+            <div class="nav">
                 <div class="container">
                     <div class="text-center">
                           <a class="navbar-brand" href="#" id="brand-img">
-                            <img alt="Brand" src="/images/drupal.png" class="drupal-img">
+                            <img alt="Brand" src="images/logo.png" class="drupal-img">
                           </a>
                             <span class="n1 navbar-text">DRUPALCAMP MANILA 2016</span>
-                            <p class="n2 navbar-text" id="date">MAY 14,2016</p>
-                          <p class="n3 navbar-text"><a href="#" class="navbar-link"><span>LOGIN</span><span id=m1>ATTEND</span></a></p>
+                            <p class="n2 navbar-text" id="date">MAY 07,2016</p>
+                          <a class="fb-social" href="https://web.facebook.com/groups/phdrug/"><img src="images/fb.png"></a>
+                          <p class="n3 navbar-text"><a href="#" class="navbar-link"><span id=m1>ATTEND</span></a></p>
                     </div>
                 </div>
             </div>
@@ -26,11 +29,11 @@
             <div class="btn-nav">
                 <div class="container">
                     <div class="row">
-                        <a href="#" class="span3"><img src="images/session.png"><p>SESSIONS</p></a>
-                        <a href="#" class="span2"><img src="images/sponsor.png"><p>SPONSOR</p></a>
-                        <a href="#" class="span2"><img src="images/attend.png"><p>ATTEND</p></a>
-                        <a href="#" class="span2"><img src="images/locate.png"><p>LOCATE</p></a>
-                        <a href="#" class="span3"><img src="images/update.png"><p>UPDATE</p></a>
+                        <a href="#speakers" class="span3"><img src="images/session.png"><p>SPEAKERS</p></a>
+                        <a href="#sponsors" class="span2"><img src="images/sponsor.png"><p>SPONSORS</p></a>
+                        <a href="#register" class="span2"><img src="images/attend.png"><p>REGISTER</p></a>
+                        <a href="#venue" class="span2"><img src="images/locate.png"><p>VENUE</p></a>
+                        <a href="#news" class="span3"><img src="images/update.png"><p>NEWS</p></a>
                     </div>
                     <div class="bg-txt text-center">
                         <h1 id="drupal-txt">DRUPAL CAMP</h1>
@@ -43,11 +46,102 @@
                 </div>
             </div>
         </div>
-        <section>
-            <div class="blockquote">
-            
+        <section id="speakers" class="speakers section-white">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="col-md-12">
+                        <h2 class="block-title">SPEAKERS</h2>
+
+                        <ul>
+                        <li>
+                        <div class="speakers__img"><a href="https://www.drupal.org/u/enzo"><img src="images/speakers/speaker-enzo.jpg" alt="Eduardo Garcia - Enzo"/></a></div>
+                        <div class="speakers__content">
+                        <div class="speakers__author-name"><a href="https://www.drupal.org/u/enzo">Eduardo Garcia - Enzo</a></div>
+                        <p class="speakers__text">Active Drupal contrib developer, CTO - Anexus IT</p>
+                        </div>
+                        </li>
+                        <li>
+                        <div class="speakers__img"><a href="http://geraldvillorente.github.io/"><img src="images/speakers/speaker-gerald.jpg" alt="Gerald Villorente"/></a></div>
+                        <div class="speakers__content">
+                        <div class="speakers__author-name"><a href="http://geraldvillorente.github.io/">Gerald Villorente</a></div>
+                        <p class="speakers__text">Expert Drupal developer, Director - VielSoft Ltd Co.</p>
+                        </div>
+                        </li> 
+                        </ul>
+                    </div>
+                </div> 
+            </div>   
+
+            <p class="comingsoon">More coming soon...</p>
+        </section>
+
+        <!-- <section id="sponsors" class="section-white">
+            <div class="container">
+                <div class="row clearfix">
+                    <p class="comingsoon">More coming soon...</p>
+                </div>
+            </div>
+        </section> -->
+
+        <section id="register" class="section-white">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="col-md-12">
+                        <h2 class="block-title">REGISTER</h2>
+
+                        <div data-tb="ticket-form" data-event="5106"></div>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://cdn.ticketbase.com/widgets/v0.1/ticketbase.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','ticketbase-wjs');</script>
+                    </div>
+                </div>
             </div>
         </section>
+
+        <section id="venue">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="col-md-12">
+                        <h2 class="block-title">VENUE</h2>
+                        <p>10th Fl, Hewlett Packard Enterprise<br/>
+                        Two Cyberpod Eton Centris EDSA cor. Quezon Ave., Quezon City 1100</p>
+                        <br/>
+                    </div>
+                </div>
+            </div>
+                    
+
+            <div class="map-overlay" onClick="style.pointerEvents='none'"></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.2504459796082!2d121.037862614749!3d14.641719879993213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7aa1e9139cd%3A0x3dc172222f531309!2sEton+Centris!5e0!3m2!1sen!2sph!4v1457143656728"  height="400" frameborder="0" style="border:0; width: 100%;" allowfullscreen></iframe>
+        </section>
+
+        <section id="news" class="section-white">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="col-md-12">
+                        <h2 class="block-title">NEWS</h2>
+                        <div class="post">
+                            <h3 class="post-title">Registration is open!</h3>
+                            <div class="post-content">More news coming soon...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer section-white">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="col-md-6">
+                        Organized by <a href="http://drupalpilipinas.org">Drupal Pilipinas</a> and <a href="http://koodi.ph">Koodi Systems</a>
+                    </div>
+
+                    <div class="col-md-6">
+                        
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
 </div>
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.min.js"></script>

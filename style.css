@@ -9,6 +9,6 @@ nav .drupal-img{
     width: 40px;
 }
 .bg{
-    background-image: url(/images/header-bg.png) no-repeat;
+    background-image: url(images/header-bg.png) no-repeat;
     height: 50%;
 }
