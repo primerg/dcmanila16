@@ -2,17 +2,21 @@
 @import url(https://fonts.googleapis.com/css?family=Yesteryear);
 body{
     font-family: 'Raleway', sans-serif;
+    padding: 0 !important;
 }
 
-header{
-    height: 65px;
+.nav{
+    position: relative;
 }
 .nav{
     background-color: black;
     padding: 10px;
+    color: white;
+    width: 105%;
 }
 .drupal-img{
     float: left;
+    margin-top: -15px;
 }
 .nav span{
     float: left;
@@ -20,27 +24,34 @@ header{
 }
 .nav p{
     display: inline;
+    
 }
-.nav .n3{
-    float: right;
+.nav .n1{
+    margin-left: 0;
+    padding-left: 0;
+    width: 230px;
 }
 .nav .n2{
     margin: 0 auto;
 }
 .nav .n3 #m1{
     color:#e67c47;
+    float: right;
 }
 .bg{
     background: url(../images/header-bg.jpg) no-repeat;
-    height: 787px;
+    height: 100%;
+    width: 100%
     position: relative;
+    background-position: center;
     background-size: cover;
 }
 .btn-nav{
+    margin-top: -20px;
     text-align: center;
-    height: 90px;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    height: 150px;
+    padding-top: 40px;
+    padding-bottom: 10px;
     background: rgba(0, 250, 0); /* Fallback */
     background-color: rgba(0, 250, 0, 0.1);
     color: rgba(0, 250, 0, 0.1);
@@ -56,16 +67,15 @@ header{
     text-decoration: none;
     color: #bbdce5;
 }
-
 .btn-nav img {
     width: 30px; height: 30px;
     padding-bottom: 10px;
 }
 .bg-txt{
-    top: 270px;
+    top: 100px;
     width: 600px;
     margin: 0 auto;
-    height: 140px;
+    height: 100%;
     position: relative;
 }
 .bg-txt #manila-txt{
@@ -74,6 +84,8 @@ header{
     font-size: 250px;
     margin-top: 50px;
     position: absolute;
+    width: 100%;
+    padding-right: 20px;
     text-shadow: -1px -1px gray;
     -webkit-transform: rotate(-18deg);
     /* Firefox */
@@ -87,21 +99,20 @@ header{
     font-size: 60px;
     color: #bbdce5;
     position: absolute;
-    bottom: 0;
+    bottom: -190px;
     right: 0;
 }
 .bg-txt #drupal-txt{
     color: #bbdce5;
     position: absolute;
     left: 20px;
-    top: -60px;
+    top: 60px;
     font-size: 50px;
 }
 .m2{
     position: absolute;
     text-align: center;
-    bottom: 30px;
-    margin-left: 350px;
+    bottom: 0px;
 }
 .m2 button{
     padding: 20px 90 20 90px
@@ -122,57 +133,66 @@ section{
 }
 
 /* SPEAKERS */
-
-.speakers ul {
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
+.speaker{
+    margin-top: 0;
+    height: 450px;
+    background-color: #002b48;
 }
 
-.speakers ul li {
-  float: left;
-  margin-bottom: 70px;
-  width: 50%;
+.item .row{
+    max-width: 750px;
+    height: 345px;
+    margin: 0 auto;
+    position: relative;
+}
+.carousel{
+    padding-top: 70px;
 }
 
-.speakers ul li .speakers__content {
-  padding: 0 17px;
-  margin-left: 180px;
+.carousel-indicators li{
+    background-color: #59829e;
+    border-radius: 0;
+    border: none;
+}
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #b1d9f4;
+}
+/* SLIDER  */
+.item{
+    padding: 20px;
+}
+.item img{
+    border-radius: 50%;
+}
+.item h4{
+    font-size: 50px;
+    font-weight: 700;
+    color:#b1d9f4;
+}
+.item #span1{
+    color: #f3bd54;
+    font-size: 24px;
+}
+.item #span2{
+    font-size: 16px;
+    color: #f3bd54;
+}
+.item p{
+    margin-top: 25px;
+    font-size: 22px;
+    color: white;
+}
+.item img{
+    position: absolute;
+    width: 270px;
+    right: 0;
+    margin-top: 20px;
 }
 
-.speakers ul li .speakers__img {
-  margin-bottom: 25px;
-  float: left;
-}
-
-.speakers ul li .speakers__img img {
-  border-radius: 100%;
-  width: 160px;
-  height: 160px;
-}
-
-.speakers ul li .speakers__author-name {
-  font-family: arial;
-  font-size: 24px;
-  line-height: 28px;
-  margin-bottom: 17px;
-}
-
-.speakers ul li .speakers__author-name a {
-  color: #333;
-}
-
-.speakers ul li .speakers__author-name a:hover {
-  color: #3f8ad6;
-}
-
-.speakers ul li .speakers__text {
-}
-
-.comingsoon {
-    text-align: center; font-weight: bold; font-size: 200%;
-    text-transform: uppercase;
-}
+/* END OF SLIDER */
 
 #venue {
     position: relative;
@@ -191,10 +211,10 @@ section{
     width: auto;
 }
 
-.fb-social {
+.fb-social img {
     float: right;
-    width: 32px; height: 32px;
-    margin-left: 10px;
+    max-width: 32px; height: 32px;
+    margin-top: 5px;
 }
 
 .footer {
@@ -217,4 +237,87 @@ section{
 .footer a {
     color: #fff;
     text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) { 
+    .nav .n1{
+        font-size: 12px;
+        margin-left: 15px;
+    }
+    .nav #date{
+        position: absolute;
+        left: 40px;
+        bottom: -5px;
+    }
+    .nav .fb-social{
+        position: absolute;
+        right: 30px;
+    }
+    .nav .n3{
+        position: absolute;
+    }
+    .btn-nav a p{
+        font-size: 12px;
+    }
+    .btn-nav {
+        text-align: center;
+    }
+    .bg-txt{
+        top: 70px;
+        width: 100%;
+    }
+    .bg-txt #drupal-txt{
+        font-size: 25px;
+    }
+    .bg-txt #manila-txt{
+        font-size: 120px;
+    }
+    .bg-txt #lbl{
+        font-size: 25px;
+        bottom: -80px;
+    }
+    .carousel-inner .item h4 {
+        font-size: 22px;
+    }
+    .carousel-inner .item #span1 {
+        font-size: 12px;
+    }
+    .carousel-inner .item #span2 {
+        font-size: 11px;
+    }
+    .carousel-inner .item p {
+        font-size: 12px;
+    }
+    .carousel-inner .item img {
+        width: 125px;
+        margin-top: 50px;
+        margin-right: 0px;
+    }
+    .m2{
+        position: relative;
+        bottom: -200px;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) { 
+    .btn-nav a p{
+        font-size: 16px;
+    }
+    .btn-nav a{
+      top: -20px;
+       
+    }
+}
+@media (min-width: 769px) and (max-width: 992px) { 
+  
+}
+@media (min-width: 1200px) { 
+
 }
