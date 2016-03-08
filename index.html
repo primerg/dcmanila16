@@ -11,43 +11,62 @@
 <body>
 <div class="Home">
         <header>
-            <nav class="nav navbar-fixed-top">
+            <nav class="nav navbar-fixed-top" id="top-nav">
                 <div class="container">
-                        <div class="row">
-                          <a class="navbar-brand" href="#" id="brand-img">
+                        <div class="navbar-nav col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                          <a class="navbar-brand col-xs-4 col-sm-4 col-md-4" href="#" id="brand-img">
                             <img alt="Brand" src="images/logo.png" class="drupal-img">
                           </a>
-                            <span class="n1 navbar-text">DRUPALCAMP MANILA 2016</span>
-                            <p class="navbar-text" id="date">MAY 07,2016</p>
-                          <a class="fb-social navbar-right" href="https://web.facebook.com/groups/phdrug/"><img src="images/fb.png"></a>
-                          <p class="n3 navbar-text navbar-right"><a href="#" class="navbar-link"><span id=m1>ATTEND</span></a></p>
+                            <div class="htop col-md-4 col-sm-4 col-xs-4">
+                                <span class="n1 navbar-text">DRUPALCAMP MANILA 2016</span>
+                                <p class="navbar-text" id="date">MAY 07,2016</p>
+                            </div>
+                                <div class="navbar-right col-sm-4 col-md-4">
+                              <a class="fb-social navbar-right" href="https://web.facebook.com/groups/phdrug/"><img src="images/fb.png"></a>
+                              <p class="n3 navbar-text navbar-right"><a href="#" class="navbar-link"><span id=m1>ATTEND</span></a></p>
+                            </div>
                         </div>
                 </div>
             </nav>
         </header>
-        <div class="bg">
+        <div class="bg clearfix">
             <div class="btn-nav">
-                <div class="container">
-                    <div class="row">
-                        <a href="#speakers" class="col-md-3 col-sm-3 col-xs-4"><img src="images/session.png"><p>SPEAKERS</p></a>
-                        <a href="#sponsors" class="col-md-2 col-sm-2 col-xs-4" ><img src="images/sponsor.png"><p>SPONSORS</p></a>
-                        <a href="#register" class="col-md-2 col-sm-2 col-xs-4"><img src="images/attend.png"><p>REGISTER</p></a>
-                        <a href="#venue" class="col-md-2 col-sm-2 col-xs-6"><img src="images/locate.png"><p>VENUE</p></a>
-                        <a href="#news" class="col-md-3 col-sm-3 col-xs-6"><img src="images/update.png"><p>NEWS</p></a>
+                <nav class="navbar navbar-default" id="nav-menu">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
                     </div>
-                    <div class="bg-txt text-center">
-                        <h1 id="drupal-txt">DRUPAL CAMP</h1>
-                        <p id="manila-txt">Manila</p>
-                        <h1 id="lbl">2016</h1>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                             <ul class="nav navbar-nav col-lg-12 col-md-12 col-sm-12">
+                                <li class="col-lg-3 col-md-3 col-sm-3"><a href="#speakers" ><img src="images/session.png"><p class="col-lg-12 col-md-12 col-sm-12">SPEAKERS</p></a></li>
+                                <li class="col-lg-2 col-md-2 col-sm-2"><a href="#sponsors" ><img src="images/sponsor.png"><p class="col-lg-12 col-md-12 col-sm-12">SPONSORS</p></a></li>
+                                <li class="col-lg-2 col-md-2 col-sm-2"><a href="#register" ><img src="images/attend.png"><p class="col-lg-12 col-md-12 col-sm-12">REGISTER</p></a></li>
+                                <li class="col-lg-2 col-md-2 col-sm-2"><a href="#venue"><img src="images/locate.png"><p class="col-lg-12 col-md-12 col-sm-12">VENUE</p></a></li>
+                                <li class="col-lg-3 col-md-3 col-sm-3"><a href="#news"><img src="images/update.png"><p class="col-lg-12 col-md-12 col-sm-12">NEWS</p></a></li>
+                            </ul>
+                        </div>
                     </div>
-                    
-                </div>
-                <div class="m2 col-md-12 col-sm-12 col-xs-12">
-                            <button type="button" class="btn btn-default btn-responsive" alt="">ATTEND</button>
+                </nav>
+                
+                    <div class="drupal-box">
+                        <div class="bg-txt">
+                            <h1 class="col-xs-12" id="drupal-txt">DRUPAL CAMP</h1>
+                            <p class="col-xs-12" id="manila-txt">Manila</p>
+                            <h1 class="col-xs-12" id="lbl">2016</h1>
+                        </div>
                     </div>
             </div>
-        </div>
-       <section class="speaker">
+                    <div class="m2 col-md-12 col-sm-12 col-xs-12">
+                                <button type="button" class="btn  btn-responsive" alt=""><img src="images/btn.png"><span id="attend-txt">ATTEND</span></button>
+                        </div>
+                    
+                </div>
+    <section class="speaker">
                 <div id="myCarousel" class="carousel slide">
                     <!-- Indicators -->
                     <div class="text-center">
@@ -67,7 +86,10 @@
                             <span class="col-md-12 col-sm-12 col-xs-12" id="span1">KEYNOTE SPEAKER</span>
                             <span class="col-md-12 col-sm-12 col-xs-12" id="span2">DELIVERING PINOY TALENTS TO THE WORLD</span>
                             <p class="col-md-8 col-sm-8 col-xs-8">Session starts at 9:00AM to 10:00AM @ Room 214. The speaker is a multi company founder and startup evangelist. She'll let you explore the lucrative world of web development.</p>
-                            <img class="col-md-4" src="/images/author.png" alt="Chania">
+                            <img class="col-md-4" id="speaker-img" src="/images/author.png" alt="Chania">
+                            <div class="m3 col-md-12 col-sm-12 col-xs-12">
+                                <button type="button" class="btn  btn-responsive" alt=""><img src="images/btn.png"><span id="attend-txt2">ATTEND</span></button>
+                            </div>
                         </div>
                       </div>
 
@@ -77,7 +99,10 @@
                             <span class="col-md-12 col-sm-12 col-xs-12" id="span1">KEYNOTE SPEAKER</span>
                             <span class="col-md-12 col-sm-12 col-xs-12" id="span2">DELIVERING PINOY TALENTS TO THE WORLD</span>
                             <p class="col-md-8 col-sm-8 col-xs-8">Session starts at 9:00AM to 10:00AM @ Room 214. The speaker is a multi company founder and startup evangelist. She'll let you explore the lucrative world of web development.</p>
-                            <img class="col-md-4" src="/images/speakers/speaker-enzo.jpg" alt="Chania" >
+                            <img class="col-md-4" id="speaker-img" src="/images/speakers/speaker-enzo.jpg" alt="Chania" >
+                            <div class="m3 col-md-12 col-sm-12 col-xs-12">
+                                <button type="button" class="btn  btn-responsive" alt=""><img src="images/btn.png"><span id="attend-txt2">ATTEND</span></button>
+                            </div>
                         </div>
                       </div>
 
@@ -87,7 +112,10 @@
                             <span class="col-md-12 col-sm-12 col-xs-12" id="span1">KEYNOTE SPEAKER</span>
                             <span class="col-md-12 col-sm-12 col-xs-12" id="span2">DELIVERING PINOY TALENTS TO THE WORLD</span>
                             <p class="col-md-8 col-sm-8 col-xs-8">Session starts at 9:00AM to 10:00AM @ Room 214. The speaker is a multi company founder and startup evangelist. She'll let you explore the lucrative world of web development.</p>
-                            <img class="col-md-4" src="/images/speakers/speaker-gerald.jpg" alt="Chania" >
+                            <img class="col-md-4" id="speaker-img" src="/images/speakers/speaker-gerald.jpg" alt="Chania" >
+                            <div class="m3 col-md-12 col-sm-12 col-xs-12">
+                                <button type="button" class="btn  btn-responsive" alt=""><img src="images/btn.png"><span id="attend-txt2">ATTEND</span></button>
+                            </div>
                         </div>
                       </div>
 
@@ -97,7 +125,10 @@
                             <span class="col-md-12 col-sm-12 col-xs-12" id="span1">KEYNOTE SPEAKER</span>
                             <span class="col-md-12 col-sm-12 col-xs-12" id="span2">DELIVERING PINOY TALENTS TO THE WORLD</span>
                             <p class="col-md-8 col-sm-8 col-xs-8">Session starts at 9:00AM to 10:00AM @ Room 214. The speaker is a multi company founder and startup evangelist. She'll let you explore the lucrative world of web development.</p>
-                            <img class="col-md-4" src="/images/author.png" alt="Chania" >
+                            <img class="col-md-4" id="speaker-img" src="/images/author.png" alt="Chania" >
+                            <div class="m3 col-md-12 col-sm-12 col-xs-12">
+                                <button type="button" class="btn  btn-responsive" alt=""><img src="images/btn.png"><span id="attend-txt2">ATTEND</span></button>
+                            </div>
                         </div>
                       </div>
                     </div>

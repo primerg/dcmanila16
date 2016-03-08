@@ -1,24 +1,28 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
 @import url(https://fonts.googleapis.com/css?family=Yesteryear);
 body{
     font-family: 'Raleway', sans-serif;
     padding: 0 !important;
 }
 
-.nav{
-    position: relative;
-}
-.nav{
+#top-nav{
     background-color: black;
-    padding: 10px;
+    padding: 5px;
     color: white;
-    width: 105%;
+    position: relative;
+    
+}
+.navbar-fixed-top{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
 }
 .drupal-img{
     float: left;
-    margin-top: -15px;
+    margin-top: -10px;
+    margin-left: -20px;
+    width: 120px;
 }
-.nav span{
+.nav .n1 span{
     float: left;
     margin-left: 10px;
 }
@@ -26,10 +30,17 @@ body{
     display: inline;
     
 }
+#date{
+    font-size: 12px;
+    float: left;
+    margin-top: 0;
+    display: none;
+}
 .nav .n1{
     margin-left: 0;
     padding-left: 0;
-    width: 230px;
+    font-size: 12px;
+    display: none;
 }
 .nav .n2{
     margin: 0 auto;
@@ -37,90 +48,200 @@ body{
 .nav .n3 #m1{
     color:#e67c47;
     float: right;
+    margin-top: 10px;
 }
-.bg{
-    background: url(../images/header-bg.jpg) no-repeat;
-    height: 100%;
-    width: 100%
+.fb-social img {
+    float: right;
+    max-width: 32px; height: 32px;
+    margin-top: 5px;
+    margin-right: -10px;
+    margin-left: 5px;
+}
+#nav-menu{
     position: relative;
-    background-position: center;
-    background-size: cover;
-}
-.btn-nav{
-    margin-top: -20px;
-    text-align: center;
-    height: 150px;
-    padding-top: 40px;
-    padding-bottom: 10px;
     background: rgba(0, 250, 0); /* Fallback */
     background-color: rgba(0, 250, 0, 0.1);
     color: rgba(0, 250, 0, 0.1);
 }
-.btn-nav a {
-    text-decoration: none;
-    color: white;
-    font-size: 22px;
-    display: block;
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-left: 0;
+    margin-right: 0;
 }
 
-.btn-nav a:hover {
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar-default .navbar-toggle {
+    border-color: white;
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
+    background-color: rgba(0,0,0,.25);
+}
+.container-fluid>.navbar-collapse{
+     margin-left: 0 !important;
+    margin-right: 0 !important;
+    border: none;
+}
+.bg{
+    background: url(../images/header-bg.jpg) no-repeat;
+    height: 666px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.btn-nav{
+    position: absolute;
+    width: 100%;
+}
+.btn-nav li a {
+    text-decoration: none;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.btn-nav li :hover {
+    color: aqua;
+}
+.btn-nav p{
+    color: white;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.btn-nav p:hover {
     text-decoration: none;
     color: #bbdce5;
 }
+
 .btn-nav img {
-    width: 30px; height: 30px;
+    width: 20px; height: 30px;
     padding-bottom: 10px;
 }
-.bg-txt{
-    top: 100px;
-    width: 600px;
+.drupal-box{
+    height: 200px;
+    position: absolute;
+    text-align: center;
     margin: 0 auto;
-    height: 100%;
-    position: relative;
+    width: 100%;
+    top: 250px;
 }
+.bg-txt{
+    width: 320px;
+    margin: 0 auto;
+    min-height: 200px;
+    position: relative;
+    text-align: center;
+    
+}
+
 .bg-txt #manila-txt{
     font-family: 'Yesteryear', cursive;
     color: white;
-    font-size: 250px;
-    margin-top: 50px;
-    position: absolute;
-    width: 100%;
-    padding-right: 20px;
+    font-size: 120px;
+    top: 60px;
+    width: 90%;
+    margin-left: -10px;
     text-shadow: -1px -1px gray;
     -webkit-transform: rotate(-18deg);
-    /* Firefox */
     -moz-transform: rotate(-18deg);
-    /* IE */
     -ms-transform: rotate(-18deg);
-    /* Opera */
     -o-transform: rotate(-18deg);
+    
     }
 .bg-txt #lbl{
-    font-size: 60px;
+    font-size: 30px;
     color: #bbdce5;
     position: absolute;
-    bottom: -190px;
+    bottom: 0;
+    width: 30%;
     right: 0;
 }
 .bg-txt #drupal-txt{
     color: #bbdce5;
     position: absolute;
-    left: 20px;
+    left: 0px;
     top: 60px;
-    font-size: 50px;
+    font-size: 23px;
+    width: 200px;
 }
 .m2{
     position: absolute;
     text-align: center;
-    bottom: 0px;
+    bottom: 20px;
+}
+.m2 button img{
+    width: 300px;
 }
 .m2 button{
-    padding: 20px 90 20 90px
-   
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.m2 button:hover,.m2 button:focus,.m2 button:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#attend-txt{
+    position: absolute;
+    left: 50;
+    top: 8px;
+    font-size: 32px;
+    letter-spacing: 20px;
+    font-weight: bolder;
+    color: white;
+    
+}
+.m3 button img{
+    width: 200px;
+}
+.m3 button{
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.m3 button:hover,.m2 button:focus,.m2 button:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#attend-txt2{
+    position: absolute;
+    left: 45;
+    top: 8px;
+    font-size: 20px;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    color: white;
+    
 }
 section{
     margin: 0;
-    /*background-color: #002b48;*/
 }
 
 .section-white {
@@ -135,7 +256,7 @@ section{
 /* SPEAKERS */
 .speaker{
     margin-top: 0;
-    height: 450px;
+    height: 455px;
     background-color: #002b48;
 }
 
@@ -160,11 +281,28 @@ section{
     margin: 0;
     background-color: #b1d9f4;
 }
+.carousel-inner .item h4 {
+        font-size: 22px;
+    }
+.carousel-inner .item #span1 {
+    font-size: 12px;
+}
+.carousel-inner .item #span2 {
+    font-size: 11px;
+}
+.carousel-inner .item p {
+    font-size: 12px;
+}
+.carousel-inner .item #speaker-img {
+    width: 125px;
+    margin-top: 50px;
+    margin-right: 0px;
+}
 /* SLIDER  */
 .item{
     padding: 20px;
 }
-.item img{
+.item #speaker-img{
     border-radius: 50%;
 }
 .item h4{
@@ -185,7 +323,7 @@ section{
     font-size: 22px;
     color: white;
 }
-.item img{
+.item #speaker-img{
     position: absolute;
     width: 270px;
     right: 0;
@@ -211,11 +349,6 @@ section{
     width: auto;
 }
 
-.fb-social img {
-    float: right;
-    max-width: 32px; height: 32px;
-    margin-top: 5px;
-}
 
 .footer {
     background: url(../images/header-bg.jpg) no-repeat;
@@ -248,76 +381,331 @@ section{
 
 
 @media (max-width: 480px) { 
-    .nav .n1{
-        font-size: 12px;
-        margin-left: 15px;
+
+  .bg{
+        margin-top: -20px;
     }
-    .nav #date{
-        position: absolute;
-        left: 40px;
-        bottom: -5px;
+    .tb-amount {
+     font-size: 16px !important;
     }
-    .nav .fb-social{
-        position: absolute;
-        right: 30px;
+    .tb-price{
+        padding-left: 0 !important;
     }
-    .nav .n3{
-        position: absolute;
+    .tb-quantity {
+        padding-left: 10px !important;
     }
-    .btn-nav a p{
-        font-size: 12px;
-    }
-    .btn-nav {
-        text-align: center;
-    }
-    .bg-txt{
-        top: 70px;
-        width: 100%;
+    
+}
+@media (min-width: 481px) and (max-width: 768px) { 
+   .bg-txt{
+       width: 480px;
     }
     .bg-txt #drupal-txt{
-        font-size: 25px;
+        font-size: 32px;
+        width: auto;
+        top : 70px;
     }
     .bg-txt #manila-txt{
-        font-size: 120px;
+        font-size: 180px;
+        margin-left: 0;
     }
     .bg-txt #lbl{
-        font-size: 25px;
-        bottom: -80px;
+        bottom: -40px;
     }
-    .carousel-inner .item h4 {
-        font-size: 22px;
+    #date{
+        position: absolute;
+        font-size: 16px;
+        right: 0;
+        margin-top: 0;
+    }
+    .nav .n1{
+        margin-top: 0;
+        font-size: 11px;
+        top: 0px;
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+    }
+    #date{
+        font-size: 12px;
+        left: 0;
+        margin-top: -15px;
+        display: inline-block;
+        text-align: center;
+    }
+    .bg{
+        margin-top: -20px;
+    }
+    #bs-example-navbar-collapse-1 ul li{
+        margin-top: 15px;
+    }
+    .item .row{
+        width: 80%;
+        height: 345px;
+        margin: 0 auto;
+        position: relative;
+    }
+   .carousel-inner .item h4 {
+        font-size: 25px;
     }
     .carousel-inner .item #span1 {
-        font-size: 12px;
+        font-size: 16px;
     }
     .carousel-inner .item #span2 {
-        font-size: 11px;
+        font-size: 15px;
     }
     .carousel-inner .item p {
-        font-size: 12px;
+        font-size: 14px;
     }
-    .carousel-inner .item img {
-        width: 125px;
+    .carousel-inner .item #speaker-img {
+        width: 150px;
         margin-top: 50px;
         margin-right: 0px;
     }
-    .m2{
+    .btn-nav li a {
+        text-decoration: none;
+        display: block;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: -5px;
+    }
+    #bs-example-navbar-collapse-1 ul li p{
+        margin: 0 auto;
+    }
+    #bs-example-navbar-collapse-1 ul li{
+        text-align: left;
         position: relative;
-        bottom: -200px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 20px;
+        
     }
-}
-@media (min-width: 481px) and (max-width: 768px) { 
-    .btn-nav a p{
-        font-size: 16px;
+    #bs-example-navbar-collapse-1 ul li p{
+        margin: 0 auto;
     }
-    .btn-nav a{
-      top: -20px;
-       
+    .m2 button img{
+        width: 320px;
+    }
+    .m2 #attend-txt{
+        font-size: 35px;
+        left: 55px;
+        top: 7px;
     }
 }
 @media (min-width: 769px) and (max-width: 992px) { 
-  
+    .drupal-box{
+        top: 190px;
+    }
+    .bg-txt{
+       width: 600px;
+    }
+    .bg-txt #drupal-txt{
+        font-size: 32px;
+        width: auto;
+        top : 90px;
+        left: 30px;
+    }
+    .bg-txt #manila-txt{
+        font-size: 200px;
+        margin-left: 0;
+    }
+    .bg-txt #lbl{
+        bottom: -60px;
+        right: 40px;
+    }
+    #nav-menu{
+    position: relative;
+    background: rgba(0, 250, 0); /* Fallback */
+    background-color: rgba(0, 250, 0, 0.1);
+    color: rgba(0, 250, 0, 0.1);
+    height: 100px;
+    border: none;
+    border-radius: 0;
+    }
+    .nav .n1{
+        margin-top: 0;
+        font-size: 16px;
+        top: 0px;
+        left: 0;
+        text-align: center;
+        display: inline-block;
+        width: 120%;
+    }
+    #date{
+        font-size: 14px;
+        left: 0;
+        margin-top: -15px;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    .n3{
+        margin-top: 0px;
+    }
+    .bg{
+        margin-top: -20px;
+    }
+    #bs-example-navbar-collapse-1 ul li{
+        margin-top: 15px;
+    }
+    .item .row{
+        width: 70%;
+        height: 345px;
+        margin: 0 auto;
+        position: relative;
+    }
+   .carousel-inner .item h4 {
+        font-size: 35px;
+    }
+    .carousel-inner .item #span1 {
+        font-size: 18px;
+    }
+    .carousel-inner .item #span2 {
+        font-size: 17px;
+    }
+    .carousel-inner .item p {
+        font-size: 16px;
+    }
+    .carousel-inner .item #speaker-img {
+        width: 200px;
+        margin-top: 0px;
+        margin-right: -50px;
+    }
+   #nav-menu{
+        position: relative;
+        background: rgba(0, 250, 0); /* Fallback */
+        background-color: rgba(0, 250, 0, 0.1);
+        color: rgba(0, 250, 0, 0.1);
+        height: 100px;
+        border: none;
+        border-radius: 0;
+    }
+    #bs-example-navbar-collapse-1 ul li p{
+        margin: 0 auto;
+    }
+    #bs-example-navbar-collapse-1 ul li{
+        text-align: center;
+        position: relative;
+        margin-top: 15px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #bs-example-navbar-collapse-1 ul li p{
+        margin: 0 auto;
+    }
+    .m2 button img{
+        width: 80%;
+    }
+    .m2 #attend-txt{
+        font-size: 40px;
+        left: 120px;
+    }
+    .btn-nav img {
+        width: 30px; height: 40px;
+        padding-bottom: 10px;
+    }
+    .nav p{
+        font-size: 14px;
+    }
 }
-@media (min-width: 1200px) { 
-
+@media (min-width: 991px) and (max-width: 1300px) { 
+    .nav .n1{
+        margin-top: 0;
+        font-size: 16px;
+        top: 0px;
+        left: 0;
+        text-align: center;
+        display: inline-block;
+        width: 120%;
+    }
+    #date{
+        font-size: 14px;
+        left: 0;
+        margin-top: -15px;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    .n3{
+        margin-top: 0px;
+    }
+    #nav-menu{
+        position: relative;
+        background: rgba(0, 250, 0); /* Fallback */
+        background-color: rgba(0, 250, 0, 0.1);
+        color: rgba(0, 250, 0, 0.1);
+        height: 100px;
+        border: none;
+        border-radius: 0;
+    }
+    .drupal-box{
+        top: 150px;
+    }
+    .bg-txt{
+       width: 600px;
+    }
+    .bg-txt #drupal-txt{
+        font-size: 42px;
+        width: auto;
+        top : 30px;
+        left: 30px;
+    }
+    .bg-txt #manila-txt{
+        font-size: 250px;
+        margin-left: 0;
+        top: 0;
+    }
+    .bg-txt #lbl{
+        bottom: -60px;
+        right: 40px;
+        font-size: 42px;
+    }
+    #bs-example-navbar-collapse-1 ul li{
+        text-align: center;
+        position: relative;
+        margin-top: 15px;
+    }
+    #bs-example-navbar-collapse-1 ul li p{
+        margin: 0 auto;
+    }
+    .item .row{
+        width: 80%;
+        height: 345px;
+        margin: 0 auto;
+        position: relative;
+    }
+   .carousel-inner .item h4 {
+        font-size: 45px;
+    }
+    .carousel-inner .item #span1 {
+        font-size: 22px;
+    }
+    .carousel-inner .item #span2 {
+        font-size: 20px;
+    }
+    .carousel-inner .item p {
+        font-size: 20px;
+    }
+    .carousel-inner .item #speaker-img{
+        width: 250px;
+        margin-top: 50px;
+        margin-right: 0px;
+    }
+    .m2 button img{
+        width: 474px;
+    }
+    .m2 #attend-txt{
+        font-size: 55px;
+        left: 90px;
+        top: 3px;
+    }
+    .btn-nav img {
+        width: 35px; height: 45px;
+        padding-bottom: 10px;
+    }
+    .nav p{
+        font-size: 18px;
+    }
 }
