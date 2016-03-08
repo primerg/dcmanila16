@@ -173,7 +173,7 @@ body{
     bottom: 20px;
 }
 .m2 button img{
-    width: 300px;
+    width: 250px;
 }
 .m2 button{
     background-color: transparent;
@@ -198,9 +198,9 @@ body{
 
 #attend-txt{
     position: absolute;
-    left: 50;
+    left: 37;
     top: 8px;
-    font-size: 32px;
+    font-size: 25px;
     letter-spacing: 20px;
     font-weight: bolder;
     color: white;
@@ -475,11 +475,10 @@ section{
     #bs-example-navbar-collapse-1 ul li{
         text-align: left;
         position: relative;
-        margin-top: 15px;
+        margin-top: 10px;
         margin-bottom: 10px;
         padding-left: 0;
         padding-right: 0;
-        margin-left: 20px;
         
     }
     #bs-example-navbar-collapse-1 ul li p{
@@ -494,7 +493,7 @@ section{
         top: 7px;
     }
 }
-@media (min-width: 769px) and (max-width: 992px) { 
+@media (min-width: 767px) and (max-width: 992px) { 
     .drupal-box{
         top: 190px;
     }
@@ -588,7 +587,7 @@ section{
     #bs-example-navbar-collapse-1 ul li{
         text-align: center;
         position: relative;
-        margin-top: 15px;
+        margin-top: 30px;
         padding-left: 0;
         padding-right: 0;
     }
@@ -601,13 +600,6 @@ section{
     .m2 #attend-txt{
         font-size: 40px;
         left: 120px;
-    }
-    .btn-nav img {
-        width: 30px; height: 40px;
-        padding-bottom: 10px;
-    }
-    .nav p{
-        font-size: 14px;
     }
 }
 @media (min-width: 991px) and (max-width: 1300px) { 
