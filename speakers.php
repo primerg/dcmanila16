@@ -1,0 +1,68 @@
+<?php 
+$speakers = array(
+    array(
+        'name' => 'Eduardo Garcia - Enzo',
+        'image' => 'speaker-enzo.jpg',
+        'link' => 'https://www.drupal.org/u/enzo',
+        'position' => 'CTO @ Anexus IT',
+        'company' => 'Costa Rica',
+        'intro' => '',
+    ),
+    array(
+        'name' => 'Gerald Villorente',
+        'image' => 'speaker-gerald.jpg',
+        'link' => 'http://geraldvillorente.github.io/',
+        'position' => 'Director @ VielSoft Ltd Co.',
+        'company' => 'Philippines',
+        'intro' => '',
+    ),
+    array(
+        'name' => 'Tom Tran',
+        'image' => 'tomtran.jpg',
+        'link' => 'https://www.drupal.org/u/tom-tran',
+        'position' => 'Director APAC @ FFW, Admin @ Vietnam Drupal Group',
+        'company' => 'Germany',
+        'intro' => '',
+    ),
+    array(
+        'name' => 'Paul De Paula',
+        'image' => 'paul.jpg',
+        'link' => 'https://www.drupal.org/u/fusionx1',
+        'position' => 'CSE @ Pantheon',
+        'company' => 'Philippines',
+        'intro' => '',
+    ),
+    array(
+        'name' => 'Roald Umandal',
+        'image' => 'roald.jpg',
+        'link' => 'https://www.drupal.org/u/roald.umandal',
+        'position' => 'Software Engineer @ VielSoft Ltd Co.',
+        'company' => 'Philippines',
+        'intro' => '',
+    ),
+    array(
+        'name' => 'Rachel Jaro',
+        'image' => 'rachel.jpg',
+        'link' => 'https://ph.linkedin.com/in/racheljaro',
+        'position' => 'Founder @ Koodi Systems, Drupalcamp Organizer',
+        'company' => 'Philippines',
+        'intro' => '',
+    ),
+    array(
+        'name' => 'Suryanto Rachmat',
+        'image' => 'suryanto.jpg',
+        'link' => 'http://rachmat.net/',
+        'position' => 'Open source advocate',
+        'company' => 'Indonesia',
+        'intro' => '',
+    ),
+    array(
+        'name' => 'Colin Sagan',
+        'image' => 'colin.png',
+        'link' => 'https://www.linkedin.com/in/colinsagan',
+        'position' => 'Founder, Mosswood Creative',
+        'company' => 'USA',
+        'intro' => '',
+    ),
+);
+?>
