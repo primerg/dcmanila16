@@ -15,6 +15,19 @@ $(document).ready(function(){
                     $(".item4").click(function(){
                         $("#myCarousel").carousel(3);
                     });
+                    $(".item5").click(function(){
+                        $("#myCarousel").carousel(4);
+                    });
+                    $(".item6").click(function(){
+                        $("#myCarousel").carousel(5);
+                    });
+                    $(".item7").click(function(){
+                        $("#myCarousel").carousel(6);
+                    });
+                    $(".item8").click(function(){
+                        $("#myCarousel").carousel(7);
+                    });
+
 
                     // Enable Carousel Controls
                     $(".left").click(function(){
