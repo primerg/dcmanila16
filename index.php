@@ -20,12 +20,11 @@
                             <img alt="Brand" src="images/logo.png" class="drupal-img">
                           </a>
                             <div class="htop col-sm-4">
-                                <span class="n1 navbar-text">DRUPALCAMP MANILA 2016</span>
-                                <p class="navbar-text" id="date">MAY 07,2016</p>
+                                <p class="navbar-text" id="date">MAY 07,2016 - May 08, 2016</p>
                             </div>
                                 <div class="text-center col-sm-4 col-md-4 col-xs-6">
                               <a class="fb-social navbar-right" href="https://web.facebook.com/groups/phdrug/"><img src="images/fb.png"></a>
-                              <p class="n3 navbar-text navbar-right"><a href="#register" class="navbar-link"><span id=m1>ATTEND</span></a></p>
+                              <!-- <p class="n3 navbar-text navbar-right"><a href="#register" class="navbar-link"><span id=m1>ATTEND</span></a></p> -->
                             </div>
                         </div>
                 </div>
@@ -49,7 +48,7 @@
                                 <li class="col-lg-2 col-md-2 col-sm-2"><a href="#sponsors" ><img src="images/sponsor.png"><p class="col-lg-12 col-md-12 col-sm-12">SPONSORS</p></a></li>
                                 <li class="col-lg-2 col-md-2 col-sm-2"><a href="#register" ><img src="images/attend.png"><p class="col-lg-12 col-md-12 col-sm-12">REGISTER</p></a></li>
                                 <li class="col-lg-2 col-md-2 col-sm-2"><a href="#venue"><img src="images/locate.png"><p class="col-lg-12 col-md-12 col-sm-12">VENUE</p></a></li>
-                                <li class="col-lg-3 col-md-3 col-sm-3"><a href="#news"><img src="images/update.png"><p class="col-lg-12 col-md-12 col-sm-12">NEWS</p></a></li>
+                                <li class="col-lg-3 col-md-3 col-sm-3"><a href="#about"><img src="images/update.png"><p class="col-lg-12 col-md-12 col-sm-12">ABOUT</p></a></li>
                             </ul>
                         </div>
                     </div>
@@ -63,7 +62,7 @@
                     </div>
             </div>
                     <div class="m2 col-md-12 col-sm-12 col-xs-12">
-                                <button type="button" class="btn  btn-responsive" alt=""><a href="#register"><img src="images/btn.png"><span id="attend-txt">ATTEND</span></a></button>
+                                <button type="button" class="btn  btn-responsive" alt=""><a href="#register" class="btn-attend-main"><img src="images/btn.png"><span id="attend-txt">ATTEND</span></a></button>
                         </div>
                 </div>
             <section id="speakers">
@@ -141,15 +140,38 @@
                 <div class="row clearfix">
                     <div class="col-md-12">
                         <h2 class="block-title">VENUE</h2>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="venue-overlay">
                         <p>10th Fl, Hewlett Packard Enterprise<br/>
-                        Two Cyberpod Eton Centris EDSA cor. Quezon Ave., Quezon City 1100</p>
-                        <br/>
+                            Two Cyberpod Eton Centris EDSA cor. Quezon Ave., Quezon City 1100</p>
+                                <br/>
+                        
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <p>How to get here:</p>
+                        <b>From the airport</b>
+                        <ol>
+                            <li>Take the Free shuttle bus to Pasay, City.</li>
+                            <li>Take the MRT from Taft to Quezon Ave.</li>
+                        </ol>
+                    </div>
+
+                    <div class="col-md-4">
+                        <p>&nbsp;</p>
+                        <b>Coming from the North via NLEX</b>
+                        <ol>
+                            <li>Take the MRT from North Ave. to Quezon Ave.</li>
+                        </ol>
                     </div>
                 </div>
             </div>
 
 
-            <div class="map-overlay" onClick="style.pointerEvents='none'"></div>
+            <div class="map-overlay" onClick="style.pointerEvents='none'">
+            </div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.2504459796082!2d121.037862614749!3d14.641719879993213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7aa1e9139cd%3A0x3dc172222f531309!2sEton+Centris!5e0!3m2!1sen!2sph!4v1457143656728"  height="400" frameborder="0" style="border:0; width: 100%;" allowfullscreen></iframe>
         </section>
 
@@ -157,10 +179,23 @@
             <div class="container">
                 <div class="row clearfix">
                     <div class="col-md-12">
-                        <h2 class="block-title">NEWS</h2>
+                        <h2 class="block-title">ABOUT</h2>
                         <div class="post">
-                            <h3 class="post-title">Registration is open!</h3>
-                            <div class="post-content">More news coming soon...</div>
+                            <div class="post-content">
+<p>DrupalCamp Manila is an annual event where all professional Drupal developers, enthusiasts, and students from different schools and universities gather to showcase learning and celebrate interest in Drupal and in the Drupal Community.</p>
+
+<p>Our theme for this year is <strong>​"Building stronger development community"</strong>.</p>
+
+<p>Drupal, with its 8th version released, is a Free Software tool to ease the development of web applications. Due to its versatility and power, its usage is growing in web projects of all kinds &mdash; from big industries to small companies.
+
+<p>The said event is being celebrated by several countries worldwide to show their support to Drupal which actively participated by New Jersey, Mumbai, South Wellington, Phoenix, London, Pune, Ottawa, Austin, Stanford and Amsterdam. This coming May 7­ to 8, Manila will be one of those cities that will be participating in the biggest Camp of Web Developers in the world to be hosted by Drupal Pilipinas.</p>
+
+<p>The first day is full of informative sessions, inspiring keynotes, social events, BOFs, usability testing and more.</p>
+<p>The second day is full of workshops and hands-on trainings for beginners to advance skills.</p>
+
+<p>Join us in this joyous celebration of community and code!</p>
+
+                            </div>
                         </div>
                     </div>
                 </div>
