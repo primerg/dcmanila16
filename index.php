@@ -4,8 +4,14 @@
 <title>Drupal Camp</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta property="og:title" content="Drupalcamp Manila 2016 - May 7 - 8, 2016" />
+    <meta property="og:url" content="http://2016.drupalcampmanila.com/" />
+    <meta property="og:image" content="http://2016.drupalcampmanila.com/images/drupalcamp_2014.jpg" />
+    <meta property="og:description" content="Drupalcamp Manila 2016 is a 2-day event. The first day is full of informative sessions, inspiring keynotes, social events, BOFs, usability testing and more. The second day is full of workshops and hands-on trainings for beginners to advance skills. Join us in this joyous celebration of community and code!" />
+
+
     <!-- Latest compiled and minified CSS -->
-     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-responsive.css" >
     <link rel="stylesheet" href="css/style.css" >
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
