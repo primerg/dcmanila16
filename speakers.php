@@ -14,7 +14,7 @@ $speakers = array(
         'link' => 'http://geraldvillorente.github.io/',
         'position' => 'Director @ VielSoft Ltd Co.',
         'company' => 'Philippines',
-        'intro' => 'Gerald has an extensive background and experience as a full stack engineer. He has been involved in a variety of projects ranging from front-end to back-end development, database and server configurations, Linux network and system administration, as well as Dev Ops tasks. He is a passionate open-source software advocate, creates and contributes to open source projects, is active in community meetups and talks, and does mentoring regulary.',
+        'intro' => 'Gerald is an experienced full stack engineer, Linux network and system administration and Dev Ops tasks. He is a passionate open-source software advocate, creates and contributes to open source projects, is active in community meetups and talks, and does mentoring regulary.',
     ),
     array(
         'name' => 'Tom Tran',
