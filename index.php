@@ -262,7 +262,7 @@
             <div class="container">
                 <div class="row clearfix">
                     <div class="col-md-6">
-                        Organized by <a href="http://drupalpilipinas.org">Drupal Pilipinas</a> and <a href="http://koodi.ph">Koodi Systems</a>
+                        Organized by <a href="http://drupalpilipinas.org">Drupal Pilipinas</a> and <a href="http://koodi.ph">Koodi Systems</a> | Contact us via our <a href="https://web.facebook.com/groups/phdrug/">Facebook group</a>
                          <a class="fb-social2 navbar-right" href="https://web.facebook.com/groups/phdrug/"><img src="images/fb.png"></a>
                     </div>
 
