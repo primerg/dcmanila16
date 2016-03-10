@@ -6,7 +6,7 @@ $speakers = array(
         'link' => 'https://www.drupal.org/u/enzo',
         'position' => 'CTO @ Anexus IT',
         'company' => 'Costa Rica',
-        'intro' => '',
+        'intro' => 'Eduardo is an engineer in Computer Science with emphasis in Information Systems. He is also a Master in Information Systems with emphasis in Project Management. Specializes in web development using PHP/5, information architecture, project management and Unix administration.',
     ),
     array(
         'name' => 'Gerald Villorente',
@@ -14,7 +14,7 @@ $speakers = array(
         'link' => 'http://geraldvillorente.github.io/',
         'position' => 'Director @ VielSoft Ltd Co.',
         'company' => 'Philippines',
-        'intro' => '',
+        'intro' => 'Gerald has an extensive background and experience as a full stack engineer. He has been involved in a variety of projects ranging from front-end to back-end development, database and server configurations, Linux network and system administration, as well as Dev Ops tasks. He is a passionate open-source software advocate, creates and contributes to open source projects, is active in community meetups and talks, and does mentoring regulary.',
     ),
     array(
         'name' => 'Tom Tran',
@@ -22,7 +22,7 @@ $speakers = array(
         'link' => 'https://www.drupal.org/u/tom-tran',
         'position' => 'Director APAC @ FFW, Admin @ Vietnam Drupal Group',
         'company' => 'Germany',
-        'intro' => '',
+        'intro' => 'Tom is currently the Managing Partner APAC at FFWagency.com, a tech micro-angel and entreprenuer in Vietname. He also works as a consultat at United Nations (UNEscap.org / Satnetasia.org).',
     ),
     array(
         'name' => 'Paul De Paula',
@@ -30,7 +30,7 @@ $speakers = array(
         'link' => 'https://www.drupal.org/u/fusionx1',
         'position' => 'CSE @ Pantheon',
         'company' => 'Philippines',
-        'intro' => '',
+        'intro' => 'An accomplished Web Developer with a decade of experience in the industry, from Software Development Firms, Digital News and Media, Airline Services to US Government Platforms.',
     ),
     array(
         'name' => 'Suryanto Rachmat',
@@ -38,7 +38,7 @@ $speakers = array(
         'link' => 'http://rachmat.net/',
         'position' => 'Open source advocate',
         'company' => 'Indonesia',
-        'intro' => '',
+        'intro' => 'Suryanto develop various website & web application and an acitve active in some open source CMS community such as Drupal, Mambo, Joomla. His specialities are in content management system, web design, search engine optimization, software development life cycle.',
     ),
     array(
         'name' => 'Roald Umandal',
@@ -54,7 +54,7 @@ $speakers = array(
         'link' => 'https://www.linkedin.com/in/colinsagan',
         'position' => 'Founder, Mosswood Creative',
         'company' => 'USA',
-        'intro' => '',
+        'intro' => 'Colin is the founder and lead developer at Mosswood Creative. He has over 10 years of experience in development.',
     ),
     array(
         'name' => 'Rachel Jaro',
@@ -62,7 +62,7 @@ $speakers = array(
         'link' => 'https://ph.linkedin.com/in/racheljaro',
         'position' => 'Founder @ Koodi Systems, Drupalcamp Organizer',
         'company' => 'Philippines',
-        'intro' => '',
+        'intro' => 'Rachel is a tech entreprenuer. She started her career as a programmer and became an active community member of the Drupal community. She helped organized many drupal camps before. She has also been a resource speaker about Drupal and web development in general.',
     ),
 );
 ?>

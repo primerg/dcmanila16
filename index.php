@@ -91,7 +91,7 @@
                                 <h4 class="col-md-9"><a href="<?php echo $speaker['link'] ?>"><?php echo $speaker['name'] ?></a></h4>
                                 <span class="col-md-12 col-sm-12 col-xs-12" id="span1"><?php echo $speaker['position'] ?></span>
                                 <span class="col-md-12 col-sm-12 col-xs-12" id="span2"><?php echo $speaker['company'] ?></span>
-                                <p class="col-md-8 col-sm-8 col-xs-8">Session starts at 9:00AM to 10:00AM @ Room 214. The speaker is a multi company founder and startup evangelist. She'll let you explore the lucrative world of web development.</p>
+                                <p class="col-md-8 col-sm-8 col-xs-8"><?php echo $speaker['intro'] ? $speaker['intro'] : '' ?></p>
                                 <a href="<?php echo $speaker['link'] ?>"><img class="col-md-4" id="speaker-img" src="images/speakers/<?php echo $speaker['image'] ?>" alt="<?php echo $speaker['name'] ?>"></a>
                                 <!-- <div class="m3 col-md-12 col-sm-12 col-xs-12">
                                     <button type="button" class="btn  btn-responsive" alt=""><a href="#register"><img src="images/btn.png"><span id="attend-txt2">ATTEND</span></a></button>
