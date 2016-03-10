@@ -161,9 +161,8 @@
 <li>The camp does not cover the costs of travel or accommodation for speakers.</li>
 <li>Speakers get a free conference pass</li>
 <li>The talks will be filmed and made available online</li>
-<li>The call for speakers is open until April 10, 2015</li>
-<li>The speaker selection process begins on April 11, 2015</li>
-<li>Suggested speakers submitted before April 11 will be informed before April 15</li>
+<li>The call for speakers is open until March 31, 2016</li>
+<li>The speaker selection process begins on April 05, 2016</li>
 </ul>
 
 <p>For training and workshops, the speaker must be available on May 8, 2016.</p>
