@@ -75,6 +75,20 @@ header{
     color: rgba(0, 250, 0, 0.1);
     border: none;
     min-height: 0;
+    -webkit-transition: all 0.3s ease;                  
+    -moz-transition: all 0.3s ease;                 
+    -o-transition: all 0.3s ease;   
+    -ms-transition: all 0.3s ease;          
+    transition: all 0.3s ease;
+}
+#nav-menu.fixed-menu{
+    z-index: 10000000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background: rgba(0, 0, 0); /* Fallback */
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgba(0, 0, 0, 0.9);
 }
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
     margin-left: 0;
@@ -265,7 +279,7 @@ section{
 }
 
 .section-white {
-    margin: 40px 0;
+    padding: 40px 0;
 }
 
 .block-title {
@@ -401,6 +415,69 @@ section{
     text-decoration: underline;
 }
 
+/* SPONSORS */
+#sponsors {
+    background-color: #002b48;
+    padding: 40px 0px; 
+}
+
+#sponsors h2.block-title {
+    color: #b1d9f4;
+}
+
+#sponsors img {
+    max-height: 200px;
+    max-width: 100%;
+    opacity: 0.5;
+    -webkit-transition: all 0.3s ease;                  
+      -moz-transition: all 0.3s ease;                 
+      -o-transition: all 0.3s ease;   
+      -ms-transition: all 0.3s ease;          
+      transition: all 0.3s ease;
+}
+
+#sponsors img:hover {
+    opacity: 1;
+}
+
+#sponsors a {
+    display: block;
+    margin-bottom: 25px;
+    height: auto;
+}
+
+#sponsors h1 {
+    font-family: 'Yesteryear', cursive;
+    color: #fff;
+    margin-bottom: 35px;
+    font-size: 50px;
+    border-bottom: 1px solid #053B5F;
+}
+
+.sponsor-container {
+    padding: 0 20px;
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 25px;
+}
+
+#sponsors .sponsor-container.community,
+#sponsors .sponsor-container.media-sponsor {
+    padding: 0 10px;
+    margin-top: 25px;
+}
+
+#sponsors .sponsor-container.community a,
+#sponsors .sponsor-container.media-sponsor a {
+    display: inline-block;
+    vertical-align: middle;
+        padding: 0 10px;
+}
+
+#sponsors .sponsor-container.community img,
+#sponsors .sponsor-container.media-sponsor img {
+    max-width: 170px;
+}
 
 /* RESPONSIVE */
 

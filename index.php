@@ -131,16 +131,8 @@
     </section>
     <!-- END Speakers -->
 
-    <!-- <section id="sponsors" class="section-white">
-      <div class="container">
-        <div class="row clearfix">
-          <p class="comingsoon">More coming soon...</p>
-        </div>
-      </div>
-    </section> -->
-
     <!-- Call for speakers -->
-    <section id="register" class="section-white">
+    <section class="section-white">
       <div class="container">
         <div class="row clearfix">
           <div class="col-md-12">
@@ -193,6 +185,65 @@
     </section>
     <!-- END Call for speakers -->
 
+    <!-- Sponsors -->
+    <section id="sponsors" class="section-white">
+      <div class="container">
+        <div class="row clearfix">
+          <div class="col-md-12">
+            <h2 class="block-title">SPONSORS</h2>
+
+            <div class="col-md-4 sponsor-container gold">
+              <h1>Gold</h1>
+              <a href="http://www.bayviewtechnology.com/">
+                <img src="images/sponsors/bayview.png">
+              </a>
+            </div>
+            <div class="col-md-4 sponsor-container silver">
+              <h1>Silver</h1>
+              <a href="https://www.prometsource.com/">
+                <img src="images/sponsors/prometsource.png">
+              </a>
+              <a href="http://www.srijan.net/">
+                <img src="images/sponsors/srijan.png">
+              </a>
+            </div>
+            <div class="col-md-4 sponsor-container bronze">
+              <h1>Bronze</h1>
+              <a href="https://annai.co.jp/top">
+                <img src="images/sponsors/annai.png">
+              </a>
+            </div>
+
+            <div class="col-md-6 sponsor-container community">
+              <h1>Community Sponsors</h1>
+              <a href="http://www.cp-union.com/">
+                <img src="images/sponsors/cpunion.png">
+              </a>
+              <a href="http://devcon.ph/">
+                <img src="images/sponsors/devcon.png">
+              </a>
+              <a href="http://phil-it.org.ph/">
+                <img src="images/sponsors/philit.png">
+              </a>
+              <a href="http://www.phpugph.com/">
+                <img src="images/sponsors/phpugph.png">
+              </a>
+            </div>
+            <div class="col-md-6 sponsor-container media-sponsor">
+              <h1>Media Sponsors</h1>
+              <a href="http://www.rappler.com/">
+                <img src="images/sponsors/rappler.png">
+              </a>
+              <a href="http://www.philstar.com/">
+                <img src="images/sponsors/philstar.png">
+              </a>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END Sponsors -->
+
     <!-- Registration -->
     <section id="register" class="section-white">
       <div class="container">
@@ -209,7 +260,7 @@
     <!-- END Registration -->
 
     <!-- Venue -->
-    <section id="venue">
+    <section id="venue" class="section-white">
       <div class="container">
         <div class="row clearfix">
           <div class="col-md-12">
@@ -246,7 +297,7 @@
     <!-- END Venue -->
 
     <!-- About -->
-    <section id="news" class="section-white">
+    <section id="about" class="section-white">
       <div class="container">
         <div class="row clearfix">
           <div class="col-md-12">
@@ -292,6 +343,8 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/slider.js"></script>
   <script src="js/bootstrap.js"></script>
+  <script src="js/jquery.waypoints.js"></script>
+  <script src="js/script.js"></script>
 
   <!--Start of Zopim Live Chat Script-->
   <script type="text/javascript">
