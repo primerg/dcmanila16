@@ -53,6 +53,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
+              <a class="navbar-brand nav-toggle" href="#"><img src="images/logo.png"></a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav col-lg-12 col-md-12 col-sm-12">
