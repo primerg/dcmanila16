@@ -215,7 +215,7 @@
               </a>
             </div>
 
-            <div class="col-md-6 sponsor-container community">
+            <div class="col-md-8 sponsor-container community">
               <h1>Community Sponsors</h1>
               <a href="http://www.cp-union.com/">
                 <img src="images/sponsors/cpunion.png">
@@ -230,14 +230,14 @@
                 <img src="images/sponsors/phpugph.png">
               </a>
             </div>
-            <div class="col-md-6 sponsor-container media-sponsor">
+            <div class="col-md-4 sponsor-container media-sponsor">
               <h1>Media Sponsors</h1>
               <a href="http://www.rappler.com/">
                 <img src="images/sponsors/rappler.png">
               </a>
-              <a href="http://www.philstar.com/">
+              <!--<a href="http://www.philstar.com/">
                 <img src="images/sponsors/philstar.png">
-              </a>
+              </a>-->
             </div> 
           </div>
         </div>

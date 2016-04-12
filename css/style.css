@@ -428,7 +428,7 @@ section{
 }
 
 #sponsors img {
-    max-height: 200px;
+    max-height: 100px;
     max-width: 100%;
     opacity: 0.5;
     -webkit-transition: all 0.3s ease;                  
@@ -478,7 +478,7 @@ section{
 
 #sponsors .sponsor-container.community img,
 #sponsors .sponsor-container.media-sponsor img {
-    max-width: 170px;
+    max-width: 160px;
 }
 
 /* RESPONSIVE */
