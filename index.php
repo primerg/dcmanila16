@@ -137,49 +137,9 @@
       <div class="container">
         <div class="row clearfix">
           <div class="col-md-12">
-            <h2 class="block-title">CALL FOR SPEAKERS</h2>
+            <h2 class="block-title">SCHEDULE</h2>
 
-            <p>This year's theme is about "Building stronger development community" so we'll focus on topics that enhances the skills in building better drupal sites and projects.</p>
-
-            <p>Please see below for some breakouts for your speaker session . We look forward to your submissions and you being a speaker!</p>
-
-            <p>Drupal Version </p>
-
-            <ul>
-              <li>Drupal 7</li>
-              <li>Drupal 8 </li>
-            </ul>
-
-            <p>Tracks: </p>
-            <ul>
-              <li>Coding and Development, Security</li>
-              <li>Core Conversations</li>
-              <li>DevOps, Performance</li>
-              <li>Front End, Site Building, User Experience Design, Javascript libraries</li>
-              <li>PHP, PHP 7</li>
-              <li>Symfony, Composer</li>
-              <li>Training and Workshops</li>
-            </ul>
-
-
-            <p>Target Audience: Intermediate to advance developers. Not necessarily drupal developers only.</p>
-
-            <p>All of our program is curated by an independent content team, advised by a large amount of industry specialists and technology experts. We select and build the program based on the speakers’ competence, and talks’ relevance to our program.</p>
-
-            <p>Terms of suggesting a proposal</p>
-            <ul>
-              <li>The camp does not cover the costs of travel or accommodation for speakers.</li>
-              <li>Speakers get a free conference pass</li>
-              <li>The talks will be filmed and made available online</li>
-              <li>The call for speakers is open until March 31, 2016</li>
-              <li>The speaker selection process begins on April 05, 2016</li>
-            </ul>
-
-            <p>For training and workshops, the speaker must be available on May 8, 2016.</p>
-
-            <a class="typeform-share link btn btn-lg btn btn-default" href="https://rachel288.typeform.com/to/zn0nEe" data-mode="2" target="_blank">Submit your proposal</a>
-            <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
-          
+            
           </div>
         </div>
       </div>
@@ -193,13 +153,7 @@
           <div class="col-md-12">
             <h2 class="block-title">SPONSORS</h2>
 
-            <div class="col-md-4 sponsor-container gold">
-              <h1>Gold</h1>
-              <a href="http://www.bayviewtechnology.com/">
-                <img src="images/sponsors/bayview.png">
-              </a>
-            </div>
-            <div class="col-md-4 sponsor-container silver">
+            <div class="col-md-6 sponsor-container silver">
               <h1>Silver</h1>
               <a href="https://www.prometsource.com/">
                 <img src="images/sponsors/prometsource.png">
@@ -208,10 +162,13 @@
                 <img src="images/sponsors/srijan.png">
               </a>
             </div>
-            <div class="col-md-4 sponsor-container bronze">
+            <div class="col-md-6 sponsor-container bronze">
               <h1>Bronze</h1>
-              <a href="https://annai.co.jp/top">
+              <a href="https://www.drupal.org/node/2466689">
                 <img src="images/sponsors/annai.png">
+              </a>
+              <a href="https://pantheon.io">
+                <img src="images/sponsors/pantheon.png">
               </a>
             </div>
 
