@@ -481,6 +481,36 @@ section{
     max-width: 160px;
 }
 
+
+/* SCHEDULE */
+
+#schedule {
+    text-align: center;
+}
+
+#schedule .sched {
+    margin-bottom: 15px;
+}
+
+#schedule .sched span {
+    display: inline-block;
+}
+
+#schedule h3 {
+    margin-bottom: 30px;
+}
+
+#schedule .sched span.topic {
+    border-bottom: 1px solid #D8D8D8;
+    font-weight: bold;
+}
+
+#schedule .sched span.speaker {
+    font-size: 12px;
+}
+
+
+
 /* RESPONSIVE */
 
 @media (min-width: 300px) and (max-width: 768px) { 
