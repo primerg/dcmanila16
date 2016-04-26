@@ -57,11 +57,12 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav col-lg-12 col-md-12 col-sm-12">
-                <li class="col-lg-3 col-md-3 col-sm-3"><a href="#speakers" ><img src="images/session.png"><p class="col-lg-12 col-md-12 col-sm-12">SPEAKERS</p></a></li>
+                <li class="col-lg-2 col-md-2 col-sm-2"><a href="#speakers" ><img src="images/speakers.png"><p class="col-lg-12 col-md-12 col-sm-12">SPEAKERS</p></a></li>
+                <li class="col-lg-2 col-md-2 col-sm-2"><a href="#schedule" ><img src="images/session.png"><p class="col-lg-12 col-md-12 col-sm-12">SCHEDULE</p></a></li>
                 <li class="col-lg-2 col-md-2 col-sm-2"><a href="#sponsors" ><img src="images/sponsor.png"><p class="col-lg-12 col-md-12 col-sm-12">SPONSORS</p></a></li>
                 <li class="col-lg-2 col-md-2 col-sm-2"><a href="#register" ><img src="images/attend.png"><p class="col-lg-12 col-md-12 col-sm-12">REGISTER</p></a></li>
                 <li class="col-lg-2 col-md-2 col-sm-2"><a href="#venue"><img src="images/locate.png"><p class="col-lg-12 col-md-12 col-sm-12">VENUE</p></a></li>
-                <li class="col-lg-3 col-md-3 col-sm-3"><a href="#about"><img src="images/update.png"><p class="col-lg-12 col-md-12 col-sm-12">ABOUT</p></a></li>
+                <li class="col-lg-2 col-md-2 col-sm-2"><a href="#about"><img src="images/update.png"><p class="col-lg-12 col-md-12 col-sm-12">ABOUT</p></a></li>
               </ul>
             </div>
           </div>
@@ -132,19 +133,105 @@
     </section>
     <!-- END Speakers -->
 
-    <!-- Call for speakers -->
-    <section class="section-white">
+    <!-- Schedule -->
+    <section class="section-white" id="schedule">
       <div class="container">
         <div class="row clearfix">
           <div class="col-md-12">
             <h2 class="block-title">SCHEDULE</h2>
-
-            
+            <div class="row">
+              <div class="col-md-12">
+                <h3>Day 1</h3>
+                <div class="col-md-6 sched">
+                  <span class="topic">Drupal Basics for Non-Programmers</span><br>
+                  <span class="speaker">Joseph Bonilla</span>
+                </div>
+                <div class="col-md-6 sched">
+                  <span class="topic">Drupal Theming Basics</span><br>
+                  <span class="speaker">Ma. Ruthie Hallarsis</span>
+                </div>
+                <div class="col-md-6 sched">
+                  <span class="topic">Module Basics</span><br>
+                  <span class="speaker">Albert Causing</span>
+                </div>
+                <div class="col-md-6 sched">
+                  <span class="topic">A Developer's Guide to Mastering Forms</span><br>
+                  <span class="speaker">Bryan Manalo</span>
+                </div>
+                <div class="col-md-6 sched">
+                  <span class="topic">Drupal Contribution</span><br>
+                  <span class="speaker">Leolando Tan / John Ross Castano</span>
+                </div>
+                <div class="col-md-6 sched">
+                  <span class="topic">Automated Testing Will Save The World: Behavior-Driven Development and Behat</span><br>
+                  <span class="speaker">Colin Sagan</span>
+                </div>
+                <div class="col-md-6 sched">
+                  <span class="topic">How to Become a Better Drupal Developer (with real life case studies)</span><br>
+                  <span class="speaker">Solihin Jinata</span>
+                </div>
+                <div class="col-md-6 sched">
+                  <span class="topic">Technical Discovery for Drupal 8 Project</span><br>
+                  <span class="speaker">Ravindra Singh</span>
+                </div>
+                <div class="col-md-6 sched">
+                  <span class="topic">Scrum for Drupal Projects</span><br>
+                  <span class="speaker">Solihin Jinata</span>
+                </div>
+                <div class="col-md-6 sched">
+                  <span class="topic">Study Case about FOX.com Website</span><br>
+                  <span class="speaker">Pratomo Ardianto</span>
+                </div>
+                <div class="col-md-6 sched">
+                  <span class="topic">Design Principles for Minimum Viable Product</span><br>
+                  <span class="speaker">Junaid Masoodi</span>
+                </div>
+                <div class="col-md-6 sched">
+                  <span class="topic">Drupal 7 Configuration Management and Deployment of Content</span><br>
+                  <span class="speaker">Harshil Maradiya</span>
+                </div>
+                <div class="col-md-6 sched">
+                  <span class="topic">Drupal 8 Development Effective and Efficient with Drupal Console</span><br>
+                  <span class="speaker">Eduardo Garcia</span>
+                </div>
+                <div class="col-md-6 sched">
+                  <span class="topic">Drupal Continuous Integration Development with Docker</span><br>
+                  <span class="speaker">Tom Tran</span>
+                </div>
+                <div class="col-md-6 sched">
+                  <span class="topic">Drupal 8 Elastic Search</span><br>
+                  <span class="speaker">Roal Umandal</span>
+                </div>
+                <div class="col-md-6 sched">
+                  <span class="topic">Advance Drupal 8 Theming</span><br>
+                  <span class="speaker">Suryanto Rachmat</span>
+                </div>
+                <div class="col-md-6 sched">
+                  <span class="topic">Automated Testing With Behat</span><br>
+                  <span class="speaker">Joseph Chin</span>
+                </div>
+                <div class="col-md-6 sched">
+                  <span class="topic">The Power of Terminus for Pantheon Platform</span><br>
+                  <span class="speaker">Paul De Paula</span>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <h3>Day 2</h3>
+                <div class="col-md-6 sched">
+                  <span class="topic">Drupal 8 Basic - Workshop</span><br>
+                  <span class="speaker">Rachel Jaro</span>
+                </div>
+                <div class="col-md-6 sched">
+                  <span class="topic">More Topics to be announced soon</span><br>
+                  <span class="speaker"></span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- END Call for speakers -->
+    <!-- END Schedule -->
 
     <!-- Sponsors -->
     <section id="sponsors" class="section-white">
