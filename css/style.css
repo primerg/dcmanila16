@@ -485,7 +485,7 @@ section{
 /* SCHEDULE */
 
 #schedule {
-    text-align: center;
+    
 }
 
 #schedule .sched {
@@ -501,12 +501,15 @@ section{
 }
 
 #schedule .sched span.topic {
-    border-bottom: 1px solid #D8D8D8;
     font-weight: bold;
 }
 
 #schedule .sched span.speaker {
-    font-size: 12px;
+    color: #59829e;
+}
+
+#schedule .sched small {
+    font-size: 10px;
 }
 
 

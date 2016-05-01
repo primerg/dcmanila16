@@ -142,89 +142,292 @@
             <div class="row">
               <div class="col-md-12">
                 <h3>Day 1</h3>
-                <div class="col-md-6 sched">
-                  <span class="topic">Drupal Basics for Non-Programmers</span><br>
-                  <span class="speaker">Joseph Bonilla</span>
-                </div>
-                <div class="col-md-6 sched">
-                  <span class="topic">Drupal Theming Basics</span><br>
-                  <span class="speaker">Ma. Ruthie Hallarsis</span>
-                </div>
-                <div class="col-md-6 sched">
-                  <span class="topic">Module Basics</span><br>
-                  <span class="speaker">Albert Causing</span>
-                </div>
-                <div class="col-md-6 sched">
-                  <span class="topic">A Developer's Guide to Mastering Forms</span><br>
-                  <span class="speaker">Bryan Manalo</span>
-                </div>
-                <div class="col-md-6 sched">
-                  <span class="topic">Drupal Contribution</span><br>
-                  <span class="speaker">Leolando Tan / John Ross Castano</span>
-                </div>
-                <div class="col-md-6 sched">
-                  <span class="topic">Automated Testing Will Save The World: Behavior-Driven Development and Behat</span><br>
-                  <span class="speaker">Colin Sagan</span>
-                </div>
-                <div class="col-md-6 sched">
-                  <span class="topic">How to Become a Better Drupal Developer (with real life case studies)</span><br>
-                  <span class="speaker">Solihin Jinata</span>
-                </div>
-                <div class="col-md-6 sched">
-                  <span class="topic">Technical Discovery for Drupal 8 Project</span><br>
-                  <span class="speaker">Ravindra Singh</span>
-                </div>
-                <div class="col-md-6 sched">
-                  <span class="topic">Scrum for Drupal Projects</span><br>
-                  <span class="speaker">Solihin Jinata</span>
-                </div>
-                <div class="col-md-6 sched">
-                  <span class="topic">Study Case about FOX.com Website</span><br>
-                  <span class="speaker">Pratomo Ardianto</span>
-                </div>
-                <div class="col-md-6 sched">
-                  <span class="topic">Design Principles for Minimum Viable Product</span><br>
-                  <span class="speaker">Junaid Masoodi</span>
-                </div>
-                <div class="col-md-6 sched">
-                  <span class="topic">Drupal 7 Configuration Management and Deployment of Content</span><br>
-                  <span class="speaker">Harshil Maradiya</span>
-                </div>
-                <div class="col-md-6 sched">
-                  <span class="topic">Drupal 8 Development Effective and Efficient with Drupal Console</span><br>
-                  <span class="speaker">Eduardo Garcia</span>
-                </div>
-                <div class="col-md-6 sched">
-                  <span class="topic">Drupal Continuous Integration Development with Docker</span><br>
-                  <span class="speaker">Tom Tran</span>
-                </div>
-                <div class="col-md-6 sched">
-                  <span class="topic">Drupal 8 Elastic Search</span><br>
-                  <span class="speaker">Roal Umandal</span>
-                </div>
-                <div class="col-md-6 sched">
-                  <span class="topic">Advance Drupal 8 Theming</span><br>
-                  <span class="speaker">Suryanto Rachmat</span>
-                </div>
-                <div class="col-md-6 sched">
-                  <span class="topic">Automated Testing With Behat</span><br>
-                  <span class="speaker">Joseph Chin</span>
-                </div>
-                <div class="col-md-6 sched">
-                  <span class="topic">The Power of Terminus for Pantheon Platform</span><br>
-                  <span class="speaker">Paul De Paula</span>
-                </div>
+                
+<table class="table table-condensed table-striped sched">
+<thead>
+  <tr>
+    <th width="15%"></th>
+    <th width="25%">
+      Room 1
+      <br>
+      Beginner Track
+      <br>
+      <small>(beginner)</small>
+    </th>
+    <th width="25%">
+      Room 2
+      <br>
+      Experienced Track
+      <br>
+      <small>(intermediate to advance)</small>
+    </th>
+    <th width="25%">
+      Room 3
+      <br>
+      Experienced Track
+      <br>
+      <small>(intermediate to advance)</small>
+    </th>
+    <th width="10%">
+      Room 4
+      <br>
+      Birds of Feather (BOF) Discussion
+      <br>
+      <small>(all)</small>
+    </th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>8:00AM - 9:00AM</td>
+    <td colspan="4">
+      Registration
+    </td>
+  </tr>
+  <tr>
+    <td>9:00AM - 9:45AM</td>
+    <td colspan="4">
+      Keynote Speaker - Eduardo Garcia
+    </td>
+  </tr>
+  <tr>
+    <td>9:45AM - 9:00AM</td>
+    <td colspan="4">
+      <i>15 minutes break and preparation of rooms</i>
+    </td>
+  </tr>
+  <tr>
+    <td>10:00AM - 11:00AM</td>
+    <td>
+      <span class="topic">Drupal basics for Non programmers</span>
+      <br/>
+      <span class="speaker">Joseph</span>
+      <br>
+      <small>(Web configuration and management)</small>
+    </td>
+    <td>
+      <span class="topic">How to become a better Drupal developer (with real life case studies)</span>
+      <br/>
+      <span class="speaker">Solihin Jinata</span>
+      <br>
+      <small>(Case Study, Non-tech)</small>
+    </td>
+    <td>
+      <span class="topic">Drupal 8 development effective and efficient with Drupal Console</span>
+      <br/>
+      <span class="speaker">Eduardo Garcia</span>
+      <br>
+      <small>(Developer)</small>
+    </td>
+    <td>
+      OPEN
+    </td>
+  </tr>
+  <tr>
+    <td>11:00AM - 12:00NN</td>
+    <td>
+      <span class="topic">Theming basics</span>
+      <br/>
+      <span class="speaker">Ruthie</span>
+      <br>
+      <small>(Theme)</small>
+    </td>
+    <td>
+      <span class="topic">Technical Discovery for Drupal 8 project</span>
+      <br/>
+      <span class="speaker">Ravindra Singh</span>
+      <br>
+      <small>(Developer, Non-tech)</small>
+    </td>
+    <td>
+      <span class="topic">Drupal Continuous Integration Development with Docker</span>
+      <br/>
+      <span class="speaker">Tom Tran</span>
+      <br>
+      <small>(Developer, Devops)</small>
+    </td>
+    <td>
+      OPEN
+    </td>
+  </tr>
+  <tr>
+    <td>12:00NN - 1PM</td>
+    <td colspan="4">
+      LUNCH BREAK
+    </td>
+  </tr>
+  <tr>
+    <td>1:00PM - 2:00PM</td>
+    <td>
+      <span class="topic">Module basics</span>
+      <br/>
+      <span class="speaker">Albert Causing</span>
+      <br>
+      <small>(Module)</small>
+    </td>
+    <td>
+      <span class="topic">Scrum for Drupal projects</span>
+      <br/>
+      <span class="speaker">Solihin Jinata</span>
+      <br>
+      <small>(PM, Non-tech)</small>
+    </td>
+    <td>
+      <span class="topic">Drupal 8 Elastic search</span>
+      <br/>
+      <span class="speaker">Roal Umandal</span>
+      <br>
+      <small>(Developer)</small>
+    </td>
+    <td>
+      OPEN
+    </td>
+  </tr>
+  <tr>
+    <td>2:00PM - 3:00PM</td>
+    <td>
+      <span class="topic">A developer's guide to mastering forms</span>
+      <br/>
+      <span class="speaker">Bryan Manalo</span>
+      <br>
+      <small>(Modules & Forms)</small>
+    </td>
+    <td>
+      <span class="topic">Study Case about FOX.com website</span>
+      <br/>
+      <span class="speaker">Pratomo Ardianto</span>
+      <br>
+      <small>(PM, Non-tech)</small>
+    </td>
+    <td>
+      <span class="topic">Advance Drupal 8 Theming</span>
+      <br/>
+      <span class="speaker">Suryanto Rachmat</span>
+      <br>
+      <small>(Developer, Themer)</small>
+    </td>
+    <td>
+      OPEN
+    </td>
+  </tr>
+  <tr>
+    <td>3:00PM - 3:30PM</td>
+    <td colspan="4">
+      NETWORKING BREAK                
+    </td>
+  </tr>
+  <tr>
+    <td>3:30PM - 4:30PM</td>
+    <td>
+      <span class="topic">Drupal Contribution</span>
+      <br/>
+      <span class="speaker">Leolando Tan / John Ross Castano</span>
+      <br>
+      <small>(Community)</small>
+    </td>
+    <td>
+      <span class="topic">Design Principles for Minimum Viable Product</span>
+      <br/>
+      <span class="speaker">Junaid Masoodi</span>
+      <br>
+      <small>(Design, Non-tech)</small>
+    </td>
+    <td>
+      <span class="topic">Securing your Web Application</span>
+      <br/>
+      <span class="speaker">Isaac Sabas</span>
+      <br>
+      <small>(Developer, Devops)</small>
+    </td>
+  </tr>
+  <tr>
+    <td>4:30PM - 5:30PM</td>
+    <td>
+      <span class="topic">Automated testing will save the world: Behavior-Driven Development and Behat / Automated Testing With Behat</span>
+      <br/>
+      <span class="speaker">Colin Sagan / Joseph Chin</span>
+      <br>
+      <small>(Testing)</small>
+    </td>
+    <td>
+      <span class="topic">DRUPAL 7 Configuraion Management and Deployment of Content </span>
+      <br/>
+      <span class="speaker">Harshil Maradiya</span>
+      <br>
+      <small>(Developer)</small>
+    </td>
+    <td>
+      <span class="topic">The power of terminus for Pantheon Platform - Will launch my first plugin for terminus</span>
+      <br/>
+      <span class="speaker">Paul De Paula</span>
+      <br>
+      <small>(Developer)</small>
+    </td>
+    <td>
+      OPEN
+    </td>
+  </tr>
+  <tr>
+    <td>5:30PM - 6:30PM</td>
+    <td colspan="4">
+      Networking Break and Group Picture                              
+    </td>
+  </tr>
+  <tr>
+    <td>7:00PM and UP</td>
+    <td colspan="4">
+      Night crawl / Party                         
+    </td>
+  </tr>
+</tbody>
+</table>
+
               </div>
               <div class="col-md-12">
                 <h3>Day 2</h3>
-                <div class="col-md-6 sched">
-                  <span class="topic">Drupal 8 Basic - Workshop</span><br>
-                  <span class="speaker">Rachel Jaro</span>
-                </div>
-                <div class="col-md-6 sched">
-                  <span class="topic">More Topics to be announced soon</span><br>
-                  <span class="speaker"></span>
-                </div>
+
+<table class="table table-condensed table-striped sched">
+<thead>
+  <tr>
+    <th width="15%"></th>
+    <th width="25%">
+      Room 1
+    </th>
+    <th width="25%">
+      Room 2
+    </th>
+    <th width="35%" colspan="2">
+      Room 3 & 4
+    </th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>8:00AM - 9:00AM</td>
+    <td colspan="4">
+      Registration
+    </td>
+  </tr>
+  <tr>
+    <td>9:00PM - 12:00NN</td>
+    <td>
+      <span class="topic">Drupal 8 Basic - Workshop</span>
+      <br/>
+      <span class="speaker">TBA</span>
+    </td>
+    <td>
+      <span class="topic">Module Development - Workshop</span>
+      <br/>
+      <span class="speaker">TBA</span>
+    </td>
+    <td colspan="2">
+      <span class="topic">Drupal Code Sprint</span>
+      <br/>
+      <span class="speaker">Drupal Pilipinas Team</span>
+    </td>
+  </tr>
+</tbody>
+</table>   
               </div>
             </div>
           </div>
@@ -277,6 +480,9 @@
             <a href="http://8layeracademy.com/">
               <img src="images/sponsors/8layer.png">
             </a>
+            <a href="http://freelancer.com/">
+              <img src="images/sponsors/freelancer.png">
+            </a>
           </div>
           <div class="col-md-6 sponsor-container media-sponsor">
             <h1>Media Sponsors</h1>
@@ -287,6 +493,17 @@
               <img src="images/sponsors/philstar.png">
             </a>-->
           </div> 
+        </div>
+        <div class="row">
+          <div class="col-md-12 sponsor-container community">
+            <h1>Organizing Partners</h1>
+            <a href="https://www.koodi.ph/">
+              <img src="images/sponsors/koodi.png">
+            </a>
+            <a href="http://www.bynare.tech/">
+              <img src="images/sponsors/bynaretech.png">
+            </a>
+          </div>
         </div>
         
       </div>
