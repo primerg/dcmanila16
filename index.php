@@ -236,55 +236,59 @@
     <!-- Sponsors -->
     <section id="sponsors" class="section-white">
       <div class="container">
-        <div class="row clearfix">
-          <div class="col-md-12">
-            <h2 class="block-title">SPONSORS</h2>
+          
+        <h2 class="block-title">SPONSORS</h2>
 
-            <div class="col-md-6 sponsor-container silver">
-              <h1>Silver</h1>
-              <a href="https://www.prometsource.com/">
-                <img src="images/sponsors/prometsource.png">
-              </a>
-              <a href="http://www.srijan.net/">
-                <img src="images/sponsors/srijan.png">
-              </a>
-            </div>
-            <div class="col-md-6 sponsor-container bronze">
-              <h1>Bronze</h1>
-              <a href="https://www.drupal.org/node/2466689">
-                <img src="images/sponsors/annai.png">
-              </a>
-              <a href="https://pantheon.io">
-                <img src="images/sponsors/pantheon.png">
-              </a>
-            </div>
-
-            <div class="col-md-8 sponsor-container community">
-              <h1>Community Sponsors</h1>
-              <a href="http://www.cp-union.com/">
-                <img src="images/sponsors/cpunion.png">
-              </a>
-              <a href="http://devcon.ph/">
-                <img src="images/sponsors/devcon.png">
-              </a>
-              <a href="http://phil-it.org.ph/">
-                <img src="images/sponsors/philit.png">
-              </a>
-              <a href="http://www.phpugph.com/">
-                <img src="images/sponsors/phpugph.png">
-              </a>
-            </div>
-            <div class="col-md-4 sponsor-container media-sponsor">
-              <h1>Media Sponsors</h1>
-              <a href="http://www.rappler.com/">
-                <img src="images/sponsors/rappler.png">
-              </a>
-              <!--<a href="http://www.philstar.com/">
-                <img src="images/sponsors/philstar.png">
-              </a>-->
-            </div> 
+        <div class="row">
+          <div class="col-md-6 sponsor-container silver">
+            <h1>Silver</h1>
+            <a href="https://www.prometsource.com/">
+              <img src="images/sponsors/prometsource.png">
+            </a>
+            <a href="http://www.srijan.net/">
+              <img src="images/sponsors/srijan.png">
+            </a>
+          </div>
+          <div class="col-md-6 sponsor-container bronze">
+            <h1>Bronze</h1>
+            <a href="https://www.drupal.org/node/2466689">
+              <img src="images/sponsors/annai.png">
+            </a>
+            <a href="https://pantheon.io">
+              <img src="images/sponsors/pantheon.png">
+            </a>
           </div>
         </div>
+        <div class="row">
+          <div class="col-md-6 sponsor-container community">
+            <h1>Community Sponsors</h1>
+            <a href="http://www.cp-union.com/">
+              <img src="images/sponsors/cpunion.png">
+            </a>
+            <a href="http://devcon.ph/">
+              <img src="images/sponsors/devcon.png">
+            </a>
+            <a href="http://phil-it.org.ph/">
+              <img src="images/sponsors/philit.png">
+            </a>
+            <a href="http://www.phpugph.com/">
+              <img src="images/sponsors/phpugph.png">
+            </a>
+            <a href="http://8layeracademy.com/">
+              <img src="images/sponsors/8layer.png">
+            </a>
+          </div>
+          <div class="col-md-6 sponsor-container media-sponsor">
+            <h1>Media Sponsors</h1>
+            <a href="http://www.rappler.com/">
+              <img src="images/sponsors/rappler.png">
+            </a>
+            <!--<a href="http://www.philstar.com/">
+              <img src="images/sponsors/philstar.png">
+            </a>-->
+          </div> 
+        </div>
+        
       </div>
     </section>
     <!-- END Sponsors -->
