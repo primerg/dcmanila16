@@ -259,7 +259,7 @@
   <tr>
     <td>1:00PM - 2:00PM</td>
     <td>
-      <span class="topic">Module basics</span>
+      <span class="topic">Module Development Primer</span>
       <br/>
       <span class="speaker">Albert Causing</span>
       <br>
