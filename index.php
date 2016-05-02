@@ -201,7 +201,7 @@
     <td>
       <span class="topic">Drupal basics for Non programmers</span>
       <br/>
-      <span class="speaker">Joseph</span>
+      <span class="speaker">Joseph Edsel Bonilla</span>
       <br>
       <small>(Web configuration and management)</small>
     </td>
@@ -226,9 +226,9 @@
   <tr>
     <td>11:00AM - 12:00NN</td>
     <td>
-      <span class="topic">Theming basics</span>
+      <span class="topic">Drupal theming introduction and basics </span>
       <br/>
-      <span class="speaker">Ruthie</span>
+      <span class="speaker">Ruthie Hallarsis</span>
       <br>
       <small>(Theme)</small>
     </td>
