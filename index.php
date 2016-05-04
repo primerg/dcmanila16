@@ -240,11 +240,11 @@
       <small>(Developer, Non-tech)</small>
     </td>
     <td>
-      <span class="topic">Drupal Continuous Integration Development with Docker</span>
+      <span class="topic">Building products for the Drupal ecosystem and their models</span>
       <br/>
       <span class="speaker">Tom Tran</span>
       <br>
-      <small>(Developer, Devops)</small>
+      <small>(Developer)</small>
     </td>
     <td>
       OPEN
