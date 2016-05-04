@@ -293,7 +293,7 @@
       <small>(Modules & Forms)</small>
     </td>
     <td>
-      <span class="topic">Study Case about FOX.com website</span>
+      <span class="topic">Case Study of FOX.com Website</span>
       <br/>
       <span class="speaker">Pratomo Ardianto</span>
       <br>
@@ -343,9 +343,9 @@
   <tr>
     <td>4:30PM - 5:30PM</td>
     <td>
-      <span class="topic">Automated testing will save the world: Behavior-Driven Development and Behat / Automated Testing With Behat</span>
+      <span class="topic">Automated testing will save the world: Behavior-Driven Development and Behat</span>
       <br/>
-      <span class="speaker">Colin Sagan / Joseph Chin</span>
+      <span class="speaker">Colin Sagan</span>
       <br>
       <small>(Testing)</small>
     </td>
@@ -357,9 +357,9 @@
       <small>(Developer)</small>
     </td>
     <td>
-      <span class="topic">The power of terminus for Pantheon Platform - Will launch my first plugin for terminus</span>
+      <span class="topic">Creating Your Own Custom Step Definition in Behat</span>
       <br/>
-      <span class="speaker">Paul De Paula</span>
+      <span class="speaker">Joseph Chin</span>
       <br>
       <small>(Developer)</small>
     </td>
