@@ -409,7 +409,7 @@
     </td>
   </tr>
   <tr>
-    <td>9:00PM - 12:00NN</td>
+    <td>9:00AM - 12:00NN</td>
     <td>
       <span class="topic">Drupal 8 Basic - Workshop</span>
       <br/>
