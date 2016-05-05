@@ -333,11 +333,11 @@
       <small>(Design, Non-tech)</small>
     </td>
     <td>
-      <span class="topic">Securing your Web Application</span>
+      <span class="topic">Creating Your Own Custom Step Definition in Behat</span>
       <br/>
-      <span class="speaker">Isaac Sabas</span>
+      <span class="speaker">Joseph Chin</span>
       <br>
-      <small>(Developer, Devops)</small>
+      <small>(Developer)</small>
     </td>
   </tr>
   <tr>
@@ -357,11 +357,11 @@
       <small>(Developer)</small>
     </td>
     <td>
-      <span class="topic">Creating Your Own Custom Step Definition in Behat</span>
+      <span class="topic">Securing your Web Application</span>
       <br/>
-      <span class="speaker">Joseph Chin</span>
+      <span class="speaker">Isaac Sabas</span>
       <br>
-      <small>(Developer)</small>
+      <small>(Developer, Devops)</small>
     </td>
     <td>
       OPEN
