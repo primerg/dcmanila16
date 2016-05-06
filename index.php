@@ -343,9 +343,9 @@
   <tr>
     <td>4:30PM - 5:30PM</td>
     <td>
-      <span class="topic">Automated testing will save the world: Behavior-Driven Development and Behat</span>
+      <span class="topic">Pantheon Terminus and Quicksilver</span>
       <br/>
-      <span class="speaker">Colin Sagan</span>
+      <span class="speaker">Paul de Paula</span>
       <br>
       <small>(Testing)</small>
     </td>

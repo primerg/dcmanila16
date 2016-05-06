@@ -48,14 +48,14 @@ $speakers = array(
         'company' => 'Philippines',
         'intro' => '',
     ),
-    array(
-        'name' => 'Colin Sagan',
-        'image' => 'colin.png',
-        'link' => 'https://www.linkedin.com/in/colinsagan',
-        'position' => 'Founder, Mosswood Creative',
-        'company' => 'USA',
-        'intro' => 'Colin is the founder and lead developer at Mosswood Creative. He has over 10 years of experience in development.',
-    ),
+    // array(
+    //     'name' => 'Colin Sagan',
+    //     'image' => 'colin.png',
+    //     'link' => 'https://www.linkedin.com/in/colinsagan',
+    //     'position' => 'Founder, Mosswood Creative',
+    //     'company' => 'USA',
+    //     'intro' => 'Colin is the founder and lead developer at Mosswood Creative. He has over 10 years of experience in development.',
+    // ),
     array(
         'name' => 'Rachel Jaro',
         'image' => 'rachel.jpg',
@@ -95,6 +95,22 @@ $speakers = array(
         'position' => 'Drupal Architect @ Srijan Technologies',
         'company' => 'India',
         'intro' => 'Ravindra is a Drupal Architect at Srijan Technologies with over seven years of experience in Web Development. He specialises in developing web-based E-commerce applications and social networking applications in Drupal and PHP.',
+    ),
+    array(
+        'name' => 'Joseph Chin',
+        'image' => 'Joe_Chin.png',
+        'link' => 'https://www.linkedin.com/in/jchin1968',
+        'position' => 'Drupal Solution Architect',
+        'company' => 'Canada',
+        'intro' => 'Joe, a Canadian living in Singapore, has been working with Drupal for over eight years now, starting with Drupal 6. His main focus is solution architecture and site-building, but he also does module development, performance tuning and automated testing with Behat.',
+    ),
+    array(
+        'name' => 'Solihin Jinata',
+        'image' => 'Solihin.png',
+        'link' => 'https://www.linkedin.com/in/jchin1968',
+        'position' => 'Co-founder and Technical Director @ Pixel Onion',
+        'company' => 'Singapore',
+        'intro' => 'SJ is the Co-founder and Technical Director at Pixel Onion, an award winning Drupal shop based in Singapore. He eats, sleeps, and breathes Drupal. Since knowing Drupal in 2005, he has helped clients launch complex scalable platforms on Drupal. His knowledge and skills on system and large architecture design have made big complex sites manageable by a small team of people.',
     ),
 );
 ?>
