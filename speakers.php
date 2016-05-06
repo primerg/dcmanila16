@@ -107,7 +107,7 @@ $speakers = array(
     array(
         'name' => 'Solihin Jinata',
         'image' => 'Solihin.png',
-        'link' => 'https://www.linkedin.com/in/jchin1968',
+        'link' => 'https://www.linkedin.com/in/solihin-jinata-sj-a2978549',
         'position' => 'Co-founder and Technical Director @ Pixel Onion',
         'company' => 'Singapore',
         'intro' => 'SJ is the Co-founder and Technical Director at Pixel Onion, an award winning Drupal shop based in Singapore. He eats, sleeps, and breathes Drupal. Since knowing Drupal in 2005, he has helped clients launch complex scalable platforms on Drupal. His knowledge and skills on system and large architecture design have made big complex sites manageable by a small team of people.',
