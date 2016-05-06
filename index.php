@@ -515,7 +515,8 @@
       <div class="container">
         <div class="row clearfix">
           <div class="col-md-12">
-            <h2 class="block-title">REGISTER</h2>
+            <h2 class="block-title">ONLINE REGISTRATION</h2>
+            <p>Please note that the online registration is <b>NOW CLOSED</b>. Walk-in registration and payment are accepted tomorrow at 8am. Please register early.</p>
 
             <div data-tb="ticket-form" data-event="5106"></div>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://cdn.ticketbase.com/widgets/v0.1/ticketbase.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','ticketbase-wjs');</script>
