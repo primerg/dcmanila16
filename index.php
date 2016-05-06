@@ -347,7 +347,7 @@
       <br/>
       <span class="speaker">Paul de Paula</span>
       <br>
-      <small>(Testing)</small>
+      <small>(Developer, Devops)</small>
     </td>
     <td>
       <span class="topic">DRUPAL 7 Configuraion Management and Deployment of Content </span>
